@@ -1,0 +1,19 @@
+.Wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F8F9FA;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    /* background-color: #ccc; */
+}
+
+.footer{
+    text-align: center;
+    color: red;
+}

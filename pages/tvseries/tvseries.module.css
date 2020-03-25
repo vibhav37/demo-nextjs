@@ -1,0 +1,49 @@
+.tvseries{
+    width: 60%;
+    height: auto;
+    margin: 50px auto;
+    border: 1px solid grey;
+    color: #fff;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px #0044ff,-2px -2px 5px #e90505;
+    text-align: center;
+    padding: 10px;
+}
+.heading{
+    /* text-shadow: 4px 4px 4px #000000; */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #fff;
+    border: 1px solid #0044ff;
+    padding: 10px;
+    animation-name: example;
+    animation-duration: 6.25s;
+    animation-iteration-count: infinite;
+}
+.heading:hover{
+    user-select: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: black;
+    /* border: 1px solid #0044ff; */
+    box-shadow: 2px 2px 5px #0044ff, -2px -2px 5px red;
+    padding: 10px;
+}
+@keyframes example {
+    0%   {color: red;}
+    14.2%   {color:orange;}
+    28.4%   {color:yellow;}
+    42.6%  {color:green; }
+    56.8%  {color:blue; }
+    71%  {color:indigo;}
+    85.2% {color:violet; }
+    100% {color: white;}
+  }
+.summaryWrap{
+    text-align: justify;
+    margin: 20px 50px;
+    color: #4D7CEA;
+}
+.image{
+    border: 1px solid black;
+    border-radius: 20px;
+}

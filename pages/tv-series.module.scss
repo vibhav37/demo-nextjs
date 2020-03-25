@@ -1,0 +1,18 @@
+.TvSeries{
+    width: 200px;
+    height: auto;
+    margin: 50px;
+    border: 2px solid grey;
+    background-color: #E1E7EC;
+    color:#000;
+    // border-radius:5px;
+    text-align: center;
+}
+.TvSeries:hover {
+    color: #4D7CEA;
+    background-color: #fff;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px #0044ff,-2px -2px 5px #e90505;
+    cursor: pointer;
+    user-select: none;
+  }
